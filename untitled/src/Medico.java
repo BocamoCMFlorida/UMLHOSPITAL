@@ -24,4 +24,9 @@ public class Medico {
     public String getEspecialidad() {
         return especialidad;
     }
+    public void verInfo() {
+        System.out.println("Médico: " + nombre);
+        System.out.println("Número de Licencia: " + numeroLicencia);
+        System.out.println("Especialidad: " + especialidad);
+    }
 }
