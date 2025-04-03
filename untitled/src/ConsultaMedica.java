@@ -20,4 +20,15 @@ public class ConsultaMedica {
     public void asociarMedico(Medico medico) {
         this.medico = medico;
     }
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public String getDiagnostico() {
+        return diagnostico;
+    }
+
+    public String getTratamiento() {
+        return tratamiento;
+    }
 }
