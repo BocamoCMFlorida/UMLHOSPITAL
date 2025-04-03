@@ -8,6 +8,7 @@ public class Paciente {
         this.numeroHistoriaClinica = numeroHistoriaClinica;
         this.direccion = direccion;
     }
+
     public String getNombre() {
         return nombre;
     }
@@ -18,5 +19,10 @@ public class Paciente {
 
     public String getDireccion() {
         return direccion;
+    }
+    public void verInfo() {
+        System.out.println("Paciente: " + nombre);
+        System.out.println("Número de Historia Clínica: " + numeroHistoriaClinica);
+        System.out.println("Dirección: " + direccion);
     }
 }
