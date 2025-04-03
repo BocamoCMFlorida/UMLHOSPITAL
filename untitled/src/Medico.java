@@ -12,5 +12,16 @@ public class Medico {
         System.out.println(this.nombre + " está atendiendo a " + paciente.getNombre());
         consulta.registrarConsulta(this, paciente);
     }
+    // Getters y Setters
+    public String getNombre() {
+        return nombre;
+    }
 
+    public String getNumeroLicencia() {
+        return numeroLicencia;
+    }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
 }
