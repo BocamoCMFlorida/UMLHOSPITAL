@@ -17,4 +17,7 @@ public class ConsultaMedica {
         this.paciente = paciente;
         System.out.println("Consulta médica registrada para " + paciente.getNombre() + " por el médico " + medico.getNombre());
     }
+    public void asociarMedico(Medico medico) {
+        this.medico = medico;
+    }
 }
