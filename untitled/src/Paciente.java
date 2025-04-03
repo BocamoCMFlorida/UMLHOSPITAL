@@ -8,4 +8,15 @@ public class Paciente {
         this.numeroHistoriaClinica = numeroHistoriaClinica;
         this.direccion = direccion;
     }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getNumeroHistoriaClinica() {
+        return numeroHistoriaClinica;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
 }
