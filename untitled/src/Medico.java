@@ -8,5 +8,9 @@ public class Medico {
         this.numeroLicencia = numeroLicencia;
         this.especialidad = especialidad;
     }
+    public void atenderPaciente(Paciente paciente, ConsultaMedica consulta) {
+        System.out.println(this.nombre + " está atendiendo a " + paciente.getNombre());
+        consulta.registrarConsulta(this, paciente);
+    }
 
 }
