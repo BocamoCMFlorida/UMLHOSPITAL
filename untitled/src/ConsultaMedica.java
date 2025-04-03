@@ -31,4 +31,11 @@ public class ConsultaMedica {
     public String getTratamiento() {
         return tratamiento;
     }
+    public void verInfo() {
+        System.out.println("Fecha de consulta: " + fecha);
+        System.out.println("Diagnóstico: " + diagnostico);
+        System.out.println("Tratamiento: " + tratamiento);
+        System.out.println("Médico: " + medico.getNombre());
+        System.out.println("Paciente: " + paciente.getNombre());
+    }
 }
